@@ -1,0 +1,69 @@
+# SCS Font (SDF format)
+#
+# The following metrics assume rendering at a reference resolution of 1024x768 without add'l scaling.
+# Max width: 14.209933
+# Max advance: 18.983997
+# Typical height 'above the line': 27.969414 (height of letter 'M')
+# Max pixels 'above the line': 28.610834
+# Max pixels 'below the line': 0.000000
+
+vert_span:28.610834  # max difference between lowest and highest pixel in any two glyphs
+line_spacing:0  # suggested number of pixels to put between lines
+default_scale:1.000000  # default font scale
+
+# Texture descriptors.
+# File path, width, height, scale X, scale Y, SDF padding
+
+image:/font/license_plate/california_0.mat,  256,  256, 0.642447, 0.581262, 3.440784
+
+# Atlas X: starting column of glyph rectangle in the font bitmap
+# Atlas Y: starting row of glyph rectangle in the font bitmap
+# Width:   width of the glyph rectangle
+# Height:  height of the glyph rectangle
+# Plane X: left offset of the rectangle when placing it relative to current 'pen position'
+#    (negative value can be thought of as 'hard' kerning, but is used at the beginning of line too!)
+# Plane Y: top offset of the rectangle when placing it relative to current 'pen position'
+#    (the 'pen' is expected to be at the level of topmost pixel of highest glyph)
+# Advance: advance of the 'pen' for rendering of the following glyph
+# Image:   image index
+
+# NUM,   Atlas X,   Atlas Y,     Width,    Height,   Plane X,   Plane Y,   Advance,  Image # Character / glyph name
+
+x0020,    0.0000,    0.0000,    0.0000,    0.0000,    0.0000,    0.0000,   16.3438,      0 # ' ' / 'SPACE'
+x002d,    3.9408,  224.9408,   15.1184,    5.1184,    7.7737,   22.4740,   25.8231,      0 # '-' / 'HYPHEN-MINUS'
+x0030,   60.9408,    3.9408,   21.1184,   48.1184,    4.5751,    0.4837,   29.1573,      0 # '0' / 'DIGIT ZERO'
+x0031,  228.9408,  169.9408,   21.1184,   48.1184,    4.8391,    0.1404,   28.0459,      0 # '1' / 'DIGIT ONE'
+x0032,  200.9408,  169.9408,   21.1184,   48.1184,    4.8039,    0.1976,   28.1112,      0 # '2' / 'DIGIT TWO'
+x0033,  172.9408,  169.9408,   21.1184,   48.1184,    5.1635,    0.4837,   28.9611,      0 # '3' / 'DIGIT THREE'
+x0034,  144.9408,  169.9408,   21.1184,   48.1184,    4.7385,    0.3200,   28.3074,      0 # '4' / 'DIGIT FOUR'
+x0035,  116.9408,  169.9408,   21.1184,   48.1184,    4.6241,    0.4837,   28.6342,      0 # '5' / 'DIGIT FIVE'
+x0036,  229.9408,   59.9408,   22.1184,   48.1184,    3.9988,    0.4706,   29.0919,      0 # '6' / 'DIGIT SIX'
+x0037,   59.9408,  169.9408,   21.1184,   48.1184,    4.5097,    0.4510,   28.6342,      0 # '7' / 'DIGIT SEVEN'
+x0038,   31.9408,  169.9408,   21.1184,   48.1184,    4.9020,    0.4837,   28.7650,      0 # '8' / 'DIGIT EIGHT'
+x0039,    3.9408,  169.9408,   21.1184,   48.1184,    4.9020,    0.5015,   28.3074,      0 # '9' / 'DIGIT NINE'
+x0041,  230.9408,  114.9408,   21.1184,   48.1184,    4.8747,    0.3093,   28.5035,      0 # 'A' / 'LATIN CAPITAL LETTER A'
+x0042,  201.9408,  114.9408,   22.1184,   48.1184,    4.4020,    0.4837,   28.8304,      0 # 'B' / 'LATIN CAPITAL LETTER B'
+x0043,  172.9408,  114.9408,   22.1184,   48.1184,    4.0097,    0.4837,   28.5035,      0 # 'C' / 'LATIN CAPITAL LETTER C'
+x0044,  144.9408,  114.9408,   21.1184,   48.1184,    4.9020,    0.4782,   28.6996,      0 # 'D' / 'LATIN CAPITAL LETTER D'
+x0045,  115.9408,  114.9408,   22.1184,   48.1184,    3.9607,    0.4533,   29.0265,      0 # 'E' / 'LATIN CAPITAL LETTER E'
+x0046,   87.9408,  114.9408,   21.1184,   48.1184,    4.4795,    0.5163,   28.3074,      0 # 'F' / 'LATIN CAPITAL LETTER F'
+x0047,   59.9408,  114.9408,   21.1184,   48.1184,    5.4434,    0.4837,   29.5495,      0 # 'G' / 'LATIN CAPITAL LETTER G'
+x0048,    3.9408,    3.9408,   21.1184,   49.1184,    4.4117,    0.0000,   29.4187,      0 # 'H' / 'LATIN CAPITAL LETTER H'
+x0049,   87.9408,  169.9408,   22.1184,   48.1184,    3.8953,    0.4837,   28.9611,      0 # 'I' / 'LATIN CAPITAL LETTER I'
+x004a,    3.9408,  114.9408,   21.1184,   48.1184,    4.4117,    0.4837,   29.2226,      0 # 'J' / 'LATIN CAPITAL LETTER J'
+x004b,  201.9408,   59.9408,   21.1184,   48.1184,    4.4210,    0.5417,   29.1573,      0 # 'K' / 'LATIN CAPITAL LETTER K'
+x004c,  173.9408,   59.9408,   21.1184,   48.1184,    4.3953,    0.5136,   27.9805,      0 # 'L' / 'LATIN CAPITAL LETTER L'
+x004d,  145.9408,   59.9408,   21.1184,   48.1184,    4.4117,    0.4807,   29.3534,      0 # 'M' / 'LATIN CAPITAL LETTER M'
+x004e,  117.9408,   59.9408,   21.1184,   48.1184,    4.5751,    0.2873,   29.2880,      0 # 'N' / 'LATIN CAPITAL LETTER N'
+x004f,   88.9408,   59.9408,   22.1184,   48.1184,    4.7288,    0.4837,   29.4187,      0 # 'O' / 'LATIN CAPITAL LETTER O'
+x0050,   59.9408,   59.9408,   22.1184,   48.1184,    4.4020,    0.3529,   28.4381,      0 # 'P' / 'LATIN CAPITAL LETTER P'
+x0051,   31.9408,   59.9408,   21.1184,   48.1184,    4.9020,    0.4510,   28.6996,      0 # 'Q' / 'LATIN CAPITAL LETTER Q'
+x0052,    3.9408,   59.9408,   21.1184,   48.1184,    5.0000,    0.4539,   28.7650,      0 # 'R' / 'LATIN CAPITAL LETTER R'
+x0053,  228.9408,    3.9408,   21.1184,   48.1184,    4.9020,    0.4837,   28.2420,      0 # 'S' / 'LATIN CAPITAL LETTER S'
+x0054,   31.9408,    3.9408,   22.1184,   49.1184,    4.0560,    0.0272,   28.9611,      0 # 'T' / 'LATIN CAPITAL LETTER T'
+x0055,  172.9408,    3.9408,   21.1184,   48.1184,    4.4770,    0.4809,   29.1573,      0 # 'U' / 'LATIN CAPITAL LETTER U'
+x0056,  144.9408,    3.9408,   21.1184,   48.1184,    4.3830,    0.4646,   28.9611,      0 # 'V' / 'LATIN CAPITAL LETTER V'
+x0057,  116.9408,    3.9408,   21.1184,   48.1184,    4.4100,    0.4510,   29.1573,      0 # 'W' / 'LATIN CAPITAL LETTER W'
+x0058,   88.9408,    3.9408,   21.1184,   48.1184,    4.3599,    0.4736,   28.9611,      0 # 'X' / 'LATIN CAPITAL LETTER X'
+x0059,  200.9408,    3.9408,   21.1184,   48.1184,    4.4253,    0.5327,   28.9611,      0 # 'Y' / 'LATIN CAPITAL LETTER Y'
+x005a,   31.9408,  114.9408,   21.1184,   48.1184,    4.3953,    0.4771,   29.0265,      0 # 'Z' / 'LATIN CAPITAL LETTER Z'

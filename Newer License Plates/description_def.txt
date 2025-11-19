@@ -1,0 +1,25 @@
+V 1.2.1
+Check out the forum for full changelog!
+Place at a high priority in mod manager.
+Works with any map mod! All 48 mainland states, some Mexican states and 2 provinces now have updated license plate textures and text formats from the year 2025.
+ 
+NO MAP MODS REQUIRED FOR THIS MOD TO WORK.
+
+I created this mod for American Truck Simulator because seeing outdated 1990s-2000s license plates in-game was really bothering me. It's 2025—most people don't drive around with those anymore!
+
+After weeks of learning how to mod and developing this project, I’m proud to share the final product.
+
+I'll be reading every comment on the download sites, so if you have complaints, questions, or suggestions, bring them on!
+
+I'm also planning future updates, including removing front license plates for states that don’t require them.
+
+Thanks for checking it out, and happy trucking!
+
+Some examples:
+CALIFORNIA: Added "DMV.CA.GOV" on the bottom and added stickers
+PENNSYLVANIA: Added keystone logo
+NEW YORK: Replaced the orange license plate (2011-2020) to the "Excelsior" license plate (2021-present)
+MONTANA: Replaced old license plate with the blue license plate (2010-present)
+ILLINOIS: Replaced old license plate (2004-2016) to the new one (2017-present)
+
+These kind of changes were made to most states, have fun!

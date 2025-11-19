@@ -1,0 +1,225 @@
+SiiNunit
+{
+# For modders: Please do not modify this file if you want to add a new entry. Create in
+# this directory a new file "<base_name>.<idofyourmod>.sii" where <base_name> is name of
+# base file without the extension (e.g. "city" for "/def/city.sii") and <idofyourmod> is
+# some string which is unlikely to conflict with other mod.
+#
+# Warning: Even if the units are specified in more than one source file, they share the
+# same namespace so suffixes or prefixes should be used to avoid conflicts.
+
+license_plate_data : .lp.car
+{
+	type: car
+
+templates[]: "3C10 2224"
+templates[]: "3C10 2224"
+templates[]: "3C10 2224"
+templates[]: "3C10 2224"
+templates[]: "3C10 2224"
+templates[]: "3C10 2224" 
+templates[]: "3B10 2224"
+templates[]: "3B10 2224"
+templates[]: "3B10 2224"
+templates[]: "3B10 2224"
+templates[]: "3B10 2224"
+templates[]: "3P10 2224"
+templates[]: "3P10 2224"
+templates[]: "3P10 2224"
+templates[]: "3P10 2224" 
+templates[]: "3G10 2224"
+templates[]: "3G10 2224"
+templates[]: "3G10 2224"
+templates[]: "3L10 2224"
+templates[]: "3L10 2224"
+templates[]: "3M10 2224"
+templates[]: "3M10 2224"
+templates[]: "3D10 2224"
+templates[]: "3F10 2224"
+templates[]: "3H10 2224"
+templates[]: "3J10 2224"
+templates[]: "3K10 2224"
+templates[]: "3N10 2224"
+templates[]: "3R10 2224"
+templates[]: "3S10 2224"
+templates[]: "3T10 2224"
+templates[]: "3V10 2224"
+
+ 	def0[]:"0"
+	def0[]:"1"
+	def0[]:"2"
+	def0[]:"3"
+	def0[]:"4"
+	def0[]:"5"
+	def0[]:"6"
+	def0[]:"7"
+	def0[]:"8"
+	def0[]:"9"
+
+	def1[]:"1"
+	def1[]:"2"
+	def1[]:"3"
+	def1[]:"4"
+	def1[]:"5"
+	def1[]:"6"
+	def1[]:"7"
+	def1[]:"8"
+	def1[]:"9"
+
+	def2[]:"A"
+	def2[]:"B"
+	def2[]:"C"
+	def2[]:"D"
+	def2[]:"E"
+	def2[]:"F"
+	def2[]:"G"
+	def2[]:"H"
+	def2[]:"J"
+	def2[]:"K"
+	def2[]:"L"
+	def2[]:"M"
+	def2[]:"N"
+	def2[]:"P"
+	def2[]:"R"
+	def2[]:"S"
+	def2[]:"T"
+	def2[]:"V"
+	def2[]:"X"
+	def2[]:"Y"
+
+	def3[]:"<font xscale=1.0 yscale=1.0><offset vshift=5><color value=FF6D2208>"
+
+	def4[]: "</font>"
+}
+
+license_plate_data : .lp.truck
+{
+	type: truck
+
+	templates[]:"1L0000002"
+
+	def0[]:"1"
+	def0[]:"2"
+	def0[]:"3"
+	def0[]:"4"
+	def0[]:"5"
+	def0[]:"6"
+	def0[]:"7"
+	def0[]:"8"
+	def0[]:"9"
+
+	def1[]:"<font xscale=1.0 yscale=1.0><offset vshift=5><color value=FF6D2208>"
+
+	def2[]: "</font>"
+}
+
+license_plate_data : .lp.trailer
+{
+	type: trailer
+
+	templates[]:"2R1000013"
+
+	def0[]:"0"
+	def0[]:"1"
+	def0[]:"2"
+	def0[]:"3"
+	def0[]:"4"
+	def0[]:"5"
+	def0[]:"6"
+	def0[]:"7"
+	def0[]:"8"
+	def0[]:"9"
+
+	def1[]:"A"
+	def1[]:"B"
+	def1[]:"C"
+	def1[]:"D"
+	def1[]:"E"
+	def1[]:"F"
+	def1[]:"G"
+	def1[]:"H"
+	def1[]:"J"
+	def1[]:"K"
+	def1[]:"L"
+	def1[]:"M"
+	def1[]:"N"
+	def1[]:"P"
+	def1[]:"R"
+	def1[]:"S"
+	def1[]:"T"
+	def1[]:"U"
+	def1[]:"V"
+	def1[]:"X"
+	def1[]:"Y"
+
+	def2[]:"<font xscale=1.0 yscale=1.0><offset vshift=5><color value=FF6D2208>"
+
+	def3[]: "</font>"
+}
+
+license_plate_data : .lp.police
+{
+	type: police
+
+	templates[]:"2FML10003"
+
+	def0[]:"0"
+	def0[]:"1"
+	def0[]:"2"
+	def0[]:"3"
+	def0[]:"4"
+	def0[]:"5"
+	def0[]:"6"
+	def0[]:"7"
+	def0[]:"8"
+	def0[]:"9"
+
+	def1[]:"1"
+	def1[]:"2"
+	def1[]:"3"
+	def1[]:"4"
+	def1[]:"5"
+	def1[]:"6"
+	def1[]:"7"
+	def1[]:"8"
+	def1[]:"9"
+
+	def2[]:"<font xscale=1.0 yscale=1.0><offset vshift=5><color value=FF6D2208>"
+
+	def3[]: "</font>"
+}
+
+license_plate_data : .lp.bus
+{
+	type: bus
+
+	templates[]:"2A  100003"
+
+	def0[]:"0"
+	def0[]:"1"
+	def0[]:"2"
+	def0[]:"3"
+	def0[]:"4"
+	def0[]:"5"
+	def0[]:"6"
+	def0[]:"7"
+	def0[]:"8"
+	def0[]:"9"
+
+	def1[]:"1"
+	def1[]:"2"
+	def1[]:"3"
+	def1[]:"4"
+	def1[]:"5"
+	def1[]:"6"
+	def1[]:"7"
+	def1[]:"8"
+	def1[]:"9"
+
+	def2[]:"<font xscale=1.0 yscale=1.0><offset vshift=5><color value=FF6D2208>"
+
+	def3[]: "</font>"
+}
+
+}
+
