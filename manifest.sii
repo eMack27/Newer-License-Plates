@@ -6,16 +6,16 @@ SiiNunit
 					{
 					
 					    # Package version can be any string with any length.
-					    package_version: "1.2.1"
+					    package_version: "1.3"
 					
 					    # Display name can be any string with any length.
 					    display_name: "Newer License Plates"
 					
 					    # Author can be any string with any length.
-					    author: "pl.d1 AKA Hondacivic"
+					    author: "pl.d1 & CaptainDiabeto"
 					
 					    # Categories is an array of strings. 
-					    category[]: "ai_traffic"
+					    category[]: "graphics"
 					
 					    # Icon inside the root directory of the mod.
 					    icon: "lp.jpg"
