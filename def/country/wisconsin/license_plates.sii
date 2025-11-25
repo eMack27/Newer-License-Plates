@@ -12,8 +12,7 @@ license_plate_data : .lp.car
 {
 	type: car
 
-	templates[]:"111-0000"
-	templates[]:"200-111"
+	templates[]:"211-0000"
 
 	def0[]:"0"
 	def0[]:"1"
@@ -47,19 +46,22 @@ license_plate_data : .lp.car
 	def1[]:"V"
 	def1[]:"X"
 	def1[]:"Y"
+	def1[]:"Z"
 
-	def2[]:"5"
-	def2[]:"6"
-	def2[]:"7"
-	def2[]:"8"
-	def2[]:"9"
+	# current wisconsin plates only start with A or B
+
+	def2[]:"A"
+	def2[]:"B"
 }
 
 license_plate_data : .lp.truck
 {
 	type: truck
+	
+	background_front: truck_front
+	background_rear: truck_rear
 
-	templates[]:"110000"
+	templates[]:" 00000"
 
 
 	def0[]:"0"
@@ -72,49 +74,36 @@ license_plate_data : .lp.truck
 	def0[]:"7"
 	def0[]:"8"
 	def0[]:"9"
-
-	def1[]:"A"
-	def1[]:"B"
-	def1[]:"C"
-	def1[]:"D"
-	def1[]:"E"
-	def1[]:"F"
-	def1[]:"G"
-	def1[]:"H"
-	def1[]:"J"
-	def1[]:"K"
-	def1[]:"L"
-	def1[]:"M"
-	def1[]:"N"
-	def1[]:"P"
-	def1[]:"R"
-	def1[]:"S"
-	def1[]:"T"
-	def1[]:"U"
-	def1[]:"V"
-	def1[]:"X"
-	def1[]:"Y"
-
-	def2[]:"5"
-	def2[]:"6"
-	def2[]:"7"
-	def2[]:"8"
-	def2[]:"9"
-
-	def3[]:"0"
-	def3[]:"1"
-	def3[]:"2"
-	def3[]:"3"
-	def3[]:"4"
-
-	def4[]:"1"
 }
 
 license_plate_data : .lp.trailer
 {
 	type: trailer
+	
+	background_rear: trailer
 
-	templates[]:"0000 Z"
+	templates[]:"000000"
+
+	def0[]:"0"
+	def0[]:"1"
+	def0[]:"2"
+	def0[]:"3"
+	def0[]:"4"
+	def0[]:"5"
+	def0[]:"6"
+	def0[]:"7"
+	def0[]:"8"
+	def0[]:"9"
+}
+
+license_plate_data : .lp.police
+{
+	type: police
+	
+	background_front: police
+	background_rear: police
+
+	templates[]:" 1000"
 
 	def0[]:"0"
 	def0[]:"1"
@@ -148,11 +137,29 @@ license_plate_data : .lp.trailer
 	def1[]:"V"
 	def1[]:"X"
 	def1[]:"Y"
+	def1[]:"Z"
+}
 
-	def2[]:"5"
-	def2[]:"6"
-	def2[]:"7"
-	def2[]:"8"
-	def2[]:"9"
+license_plate_data : .lp.police_hp
+{
+	type: police_hp
+
+	background_front: police_hp
+	background_rear: police_hp
+
+	templates[]:"1 000"
+
+	def0[]:"0"
+	def0[]:"1"
+	def0[]:"2"
+	def0[]:"3"
+	def0[]:"4"
+	def0[]:"5"
+	def0[]:"6"
+	def0[]:"7"
+	def0[]:"8"
+	def0[]:"9"
+
+	def1[]: "<color value=13007CFF>"
 }
 }

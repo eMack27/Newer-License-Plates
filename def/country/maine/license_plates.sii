@@ -12,7 +12,7 @@ license_plate_data : .lp.car
 {
 	type: car
 
-	templates[]:"0000 11"
+	templates[]:" 000-111"
 
 	def0[]:"0"
 	def0[]:"1"
@@ -46,12 +46,7 @@ license_plate_data : .lp.car
 	def1[]:"V"
 	def1[]:"X"
 	def1[]:"Y"
-
-	def2[]:"5"
-	def2[]:"6"
-	def2[]:"7"
-	def2[]:"8"
-	def2[]:"9"
+	def1[]:"Z"
 }
 
 license_plate_data : .lp.truck
@@ -92,6 +87,7 @@ license_plate_data : .lp.truck
 	def1[]:"V"
 	def1[]:"X"
 	def1[]:"Y"
+	def1[]:"Z"
 
 	def2[]:"·"
 }
@@ -134,6 +130,7 @@ license_plate_data : .lp.trailer
 	def1[]:"V"
 	def1[]:"X"
 	def1[]:"Y"
+	def1[]:"Z"
 
 	def2[]:"5"
 	def2[]:"6"

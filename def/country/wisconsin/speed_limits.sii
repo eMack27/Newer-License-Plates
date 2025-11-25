@@ -21,7 +21,7 @@ country_speed_limit : .speed_limit.car {
 	urban_limit[]:  	30
 
 	lane_speed_class[]: 	freeway
-	limit[]: 		75
+	limit[]: 		80
 	urban_limit[]:  	65
 }
 
@@ -38,7 +38,7 @@ country_speed_limit : .speed_limit.truck {
 	urban_limit[]:  	30
 
 	lane_speed_class[]: 	freeway
-	limit[]: 		65
+	limit[]: 		75
 	urban_limit[]:  	65
 }
 

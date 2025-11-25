@@ -12,7 +12,7 @@ license_plate_data : .lp.car
 {
 	type: car
 
-	templates[]:"111 000"
+	templates[]:"   000111"
 
 	def0[]:"0"
 	def0[]:"1"
@@ -46,12 +46,7 @@ license_plate_data : .lp.car
 	def1[]:"V"
 	def1[]:"X"
 	def1[]:"Y"
-
-	def2[]:"5"
-	def2[]:"6"
-	def2[]:"7"
-	def2[]:"8"
-	def2[]:"9"
+	def1[]:"Z"
 }
 
 license_plate_data : .lp.truck
@@ -92,20 +87,7 @@ license_plate_data : .lp.truck
 	def1[]:"V"
 	def1[]:"X"
 	def1[]:"Y"
-
-	def2[]:"5"
-	def2[]:"6"
-	def2[]:"7"
-	def2[]:"8"
-	def2[]:"9"
-
-	def3[]:"0"
-	def3[]:"1"
-	def3[]:"2"
-	def3[]:"3"
-	def3[]:"4"
-
-	def4[]:"1"
+	def1[]:"Z"
 }
 
 license_plate_data : .lp.trailer
@@ -146,11 +128,6 @@ license_plate_data : .lp.trailer
 	def1[]:"V"
 	def1[]:"X"
 	def1[]:"Y"
-
-	def2[]:"5"
-	def2[]:"6"
-	def2[]:"7"
-	def2[]:"8"
-	def2[]:"9"
+	def1[]:"Z"
 }
 }

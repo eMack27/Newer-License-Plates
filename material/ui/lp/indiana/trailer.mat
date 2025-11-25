@@ -1,5 +1,5 @@
 material : "ui"
 {
-	texture : "front.tobj"
+	texture : "trailer.tobj"
 	texture_name : "texture"
 }

@@ -13,7 +13,6 @@ license_plate_data : .lp.car
 	type: car
 
 	templates[]:"111 000"
-	templates[]:"000 111"
 
 	def0[]:"0"
 	def0[]:"1"
@@ -47,19 +46,18 @@ license_plate_data : .lp.car
 	def1[]:"V"
 	def1[]:"X"
 	def1[]:"Y"
+	def1[]:"Z"
 
-	def2[]:"5"
-	def2[]:"6"
-	def2[]:"7"
-	def2[]:"8"
-	def2[]:"9"
 }
 
 license_plate_data : .lp.truck
 {
 	type: truck
+	
+	background_front: truck_front
+	background_rear: truck_rear
 
-	templates[]:"Y110000"
+	templates[]:"0000111  "
 
 	def0[]:"0"
 	def0[]:"1"
@@ -93,27 +91,16 @@ license_plate_data : .lp.truck
 	def1[]:"V"
 	def1[]:"X"
 	def1[]:"Y"
-
-	def2[]:"5"
-	def2[]:"6"
-	def2[]:"7"
-	def2[]:"8"
-	def2[]:"9"
-
-	def3[]:"0"
-	def3[]:"1"
-	def3[]:"2"
-	def3[]:"3"
-	def3[]:"4"
-
-	def4[]:"1"
+	def1[]:"Z"
 }
 
 license_plate_data : .lp.trailer
 {
 	type: trailer
+	
+	background_rear: trailer
 
-	templates[]:"1110000"
+	templates[]:"S110000"
 
 	def0[]:"0"
 	def0[]:"1"
@@ -147,11 +134,29 @@ license_plate_data : .lp.trailer
 	def1[]:"V"
 	def1[]:"X"
 	def1[]:"Y"
+	def1[]:"Z"
 
-	def2[]:"5"
-	def2[]:"6"
-	def2[]:"7"
-	def2[]:"8"
-	def2[]:"9"
+}
+
+license_plate_data : .lp.police
+{
+	type: police
+	
+	background_front: police
+	background_rear: police
+
+	templates[]:"POLICE"
+	# All Minnesota police license plates are the standard Minnesota plate with the word "POLICE" enscribed
+}
+
+license_plate_data : .lp.police_hp
+{
+	type: police_hp
+
+	background_front: police_hp
+	background_rear: police_hp
+
+	templates[]:" "
+	# Minnesota State Patrol only has a static background license plate
 }
 }
