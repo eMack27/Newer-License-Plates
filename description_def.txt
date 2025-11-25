@@ -1,4 +1,4 @@
-V 1.2.1
+V 1.3
 Check out the forum for full changelog!
 Place at a high priority in mod manager.
 Works with any map mod! All 48 mainland states, some Mexican states and 2 provinces now have updated license plate textures and text formats from the year 2025.
@@ -18,6 +18,11 @@ Thanks for checking it out, and happy trucking!
 Some examples:
 CALIFORNIA: Added "DMV.CA.GOV" on the bottom and added stickers
 PENNSYLVANIA: Added keystone logo
+NEW YORK: Replaced the orange license plate (2011-2020) to the "Excelsior" license plate (2021-present)
+MONTANA: Replaced old license plate with the blue license plate (2010-present)
+ILLINOIS: Replaced old license plate (2004-2016) to the new one (2017-present)
+
+These kind of changes were made to most states, have fun!
 NEW YORK: Replaced the orange license plate (2011-2020) to the "Excelsior" license plate (2021-present)
 MONTANA: Replaced old license plate with the blue license plate (2010-present)
 ILLINOIS: Replaced old license plate (2004-2016) to the new one (2017-present)
